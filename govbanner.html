@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Official U.S. Government Banner</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .us-gov-banner {
+            background-color: #f1f1f1;
+            border-top: 4px solid #205493;
+            padding: 10px 20px;
+            font-size: 14px;
+            line-height: 1.5;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .us-gov-banner a {
+            color: #205493;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .us-gov-banner a:hover {
+            text-decoration: underline;
+        }
+
+        .us-gov-banner .top-line {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .us-gov-banner .lock-icon {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            margin-right: 5px;
+            background-color: #205493;
+            border-radius: 2px;
+            vertical-align: middle;
+            text-align: center;
+            color: white;
+            font-size: 12px;
+            line-height: 16px;
+        }
+
+        .us-gov-banner .section {
+            margin-left: 21px; /* indent for readability */
+        }
+    </style>
+</head>
+<body>
+
+<div class="us-gov-banner">
+    <div class="top-line">
+        <span>An official website of the United States government.</span>
+        <a href="#">Here’s how you know</a>
+        <span>|</span>
+        <a href="#">Español</a>
+    </div>
+    <div class="section">
+        Official websites use <strong>.gov</strong>. A <strong>.gov</strong> website belongs to an official government organization in the United States.
+    </div>
+    <div class="section">
+        <span class="lock-icon">🔒</span>
+        Secure <strong>.gov</strong> websites use HTTPS. A lock (🔒) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.
+    </div>
+</div>
+
+</body>
+</html>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uswds@3.0.1/dist/css/uswds.min.css">
+<script src="https://cdn.jsdelivr.net/npm/uswds@3.0.1/dist/js/uswds.min.js"></script>
+
+<div class="usa-banner">
+  <div class="usa-accordion">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <p class="usa-banner__header-text">
+          An official website of the United States government
+        </p>
+        <button class="usa-accordion__button" aria-expanded="false" aria-controls="gov-banner-info">
+          Here’s how you know
+        </button>
+      </div>
+    </header>
+    <div id="gov-banner-info" class="usa-banner__content usa-prose">
+      <div>
+        <p>Official websites use <strong>.gov</strong></p>
+        <p>Secure .gov websites use HTTPS</p>
+      </div>
+    </div>
+  </div>
+</div>
